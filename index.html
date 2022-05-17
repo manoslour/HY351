@@ -7,23 +7,36 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar" style="background-color: #e3f2fd;">
-      <div class="container-fluid justify-content-start">
-        <a class="navbar-brand" href="#"></a>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
           <img src="./govgr-mediakit/logo_govgr_pos.svg" class="img-fluid" style="width: 168px;">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Appointment</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row py-3">
+    <div class="container-fluid px-5 pt-3">
+      <div class="row py-3 justify-content-center">
       <div class="col">
         <h2>COVID-19</h2>
         <h3>Vaccination Appointments</h3>
       </div>
-      <div class="col pt-5">
+      <div class="col">
+        <img src="./icons/emvoliasmos-logo.svg" style="width: 200px;">
+      </div>
+      <div class="col">
         <h3>Health Advisory</h3>
       </div>
       <div class="row">
-        <div class="col-4 pt-5">
+        <div class="col-3 pt-5">
           <div class="card">
             <div class="card-header"><h5>Book Appointment</h5></div>
               <div class="card-body mt-4">
@@ -43,12 +56,12 @@
               </div>
           </div>
         </div>
-        <div class="col-8 pt-5">
+        <div class="col-9 pt-5 px-5">
           <div class="row">
-            <div class="col-1 pt-5">
-              <img src="./icons/streamline-icon-vaccine-protection-syringe@48x48.SVG" alt="vaccine" style="width: 54px; height:54px">
+            <div class="col-2 pt-5">
+              <img src="./icons/streamline-icon-vaccine-protection-syringe@48x48.SVG" alt="vaccine" style="width: 52px; height:52px">
             </div>
-            <div class="col-11">
+            <div class="col-10">
               <p>
                 <h6>You are considered fully vaccinated against COVID-19 if you have had:</h6>
                 <ul class="ps-5">
@@ -60,27 +73,46 @@
             </div>
           </div>
           <div class="row">
-            <p>
-              <h6>COVID-19 vaccine is currently not recommended for:</h6>
-              <ul class="ps-5">
-                <li>Individuals below 5 years of age for the Pfizer-BioNTech / Comirnaty vaccine</li>
-                <li>Individuals below 18 years of age for the Moderna / SpikeVax vaccines</li>
-              </ul>
-            </p>
+            <div class="col-2 pt-5">
+              <img src="./icons/streamline-icon-vaccine-protection-syringe@48x48.SVG" alt="vaccine" style="width: 52px; height:52px">
+            </div>
+            <div class="col-10">
+              <p>
+                <h6>COVID-19 vaccine is currently not recommended for:</h6>
+                <ul class="ps-5">
+                  <li>Individuals below 5 years of age for the Pfizer-BioNTech / Comirnaty vaccine</li>
+                  <li>Individuals below 18 years of age for the Moderna / SpikeVax vaccines</li>
+                </ul>
+              </p>
+            </div>
           </div>
           <div class="row">
-            <p>
-              <h6>Postpone your appointment if you:</h6>
-              <ul class="ps-5">
-                <li>Are unwell or had a fever in the last 24 hours</li>
-                <li>Are serving Stay-Home Notice (SHN) 1, Quarantine Order (QO)</li>
-                <li>Isolation Order (IO) 2, or received a Health Risk Warning (HRW)</li>
-              </ul>
-            </p>
+            <div class="col-2 pt-5">
+              <img src="./icons/streamline-icon-vaccine-protection-syringe@48x48.SVG" alt="vaccine" style="width: 52px; height:52px">
+            </div>
+            <div class="col-10">
+              <p>
+                <h6>Postpone your appointment if you:</h6>
+                <ul class="ps-5">
+                  <li>Are unwell or had a fever in the last 24 hours</li>
+                  <li>Are serving Stay-Home Notice (SHN) 1, Quarantine Order (QO)</li>
+                  <li>Isolation Order (IO) 2, or received a Health Risk Warning (HRW)</li>
+                </ul>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+        <div class="col-md-8 d-flex align-items-center">
+          <span class="mb-3 pe-5 text-muted">&copy; 2022 Υπουργείο Ψηφιακής Διακυβέρνησης</span>
+          <img src="./icons/download.svg" alt="govLogo" style="width: 260px;">
+        </div>
+      </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
