@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emvolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #003375;">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
+          <img src="./icons/logo_govgr_neg.svg" class="img-fluid" style="width: 168px;">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-semibold" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white fw-semibold" aria-current="page" href="./updateInfo.html">Personal Info</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white fw-semibold" aria-current="page" href="./appointments.html">Appointment</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./icons/icons8-doctor-60.png" class="img-fluid" style="width: 22px; height: 22px;">
+            </button>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5">
+        <div class="row justify-content-evenly">
+            <div class="col-auto">
+                <div class="card shadow " style="max-width: 50rem;">
+                    <div class="card-header text-center fw-semibold">
+                        Doctor's Info
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <div class="fw-bold">Name</div>
+                                        Emmanouil
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="fw-bold">Surname</div>
+                                        Lourakis
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="fw-bold">ID Card</div>
+                                        AO483678
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="fw-bold">AMKA</div>
+                                        06049605987
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="fw-bold">Social Security Number</div>
+                                        064589127
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="row justify-content-center">
+                    <div class="col pb-3 text-center">
+                        <h4>Vaccination Schedule</h4>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Surname</th>
+                                    <th scope="col">AMKA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>08:00</td>
+                                    <td>Manos</td>
+                                    <td>Lourakis</td>
+                                    <td>06059401551</td>
+                                    <td><button class="btn btn-success" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+</svg></button></td>
+                                    <td><button class="btn btn-danger" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                      </svg></button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>08:15</td>
+                                    <td>Stergios</td>
+                                    <td>Karagewrgis</td>
+                                    <td>04079698765</td>
+                                    <td><button class="btn btn-success" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg></button></td>
+                                    <td><button class="btn btn-danger" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                      <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg></button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>08:30</td>
+                                    <td>Panos</td>
+                                    <td>Doulis</td>
+                                    <td>211269587123</td>
+                                    <td><button class="btn btn-success" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                                      <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                                    </svg></button></td>
+                                                                        <td><button class="btn btn-danger" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                                                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                                                          </svg></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+        <div class="col-md-8 d-flex align-items-center">
+          <span class="mb-3 pe-5 text-muted">&copy; 2022 Υπουργείο Ψηφιακής Διακυβέρνησης</span>
+          <img src="./icons/download.svg" alt="govLogo" style="width: 260px;">
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
